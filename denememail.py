@@ -12,7 +12,7 @@ class Email(object):
 
 
         self.body = ""
-        with open("/root/Masaüstü/sonuclar.txt", "r") as file:
+        with open("gönderilecek dosya- isternizse belirli bir mesajda yazılabilir", "r") as file:
             self.body = file.read()
     
 
